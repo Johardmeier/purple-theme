@@ -1,0 +1,18 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    receipt_date:
+        label: Datum
+        type: date
+        sortable: true
+    accounted_takings:
+        label: Tageseinnahmen
+        type: number
+        sortable: true
+    unaccounted_takings:
+        label: 'Weitere Einnahmen'
+        type: number
+        sortable: true

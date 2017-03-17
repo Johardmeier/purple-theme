@@ -1,0 +1,38 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+        sortable: true
+    receipt_date:
+        label: Datum
+        type: date
+        sortable: true
+    deposit:
+        label: Einzahlung
+        type: number
+        sortable: true
+    reserve_new:
+        label: Neue Reserve
+        type: number
+        sortable: true
+    sum_bistro:
+        label: Bistro
+        type: number
+        sortable: true
+    sum_theatre:
+        label: Theater
+        type: number
+        sortable: true
+    sum_other:
+        label: Weitere
+        type: number
+        sortable: true
+    sum_receipts:
+        label: Quittung
+        type: number
+        sortable: true
+    corr_amount:
+        label: Korrektur
+        type: number
+        sortable: true

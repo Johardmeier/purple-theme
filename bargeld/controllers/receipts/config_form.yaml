@@ -1,0 +1,10 @@
+name: Receipts
+form: $/stagesolutions/bargeld/models/receipts/fields.yaml
+modelClass: Stagesolutions\Bargeld\Models\Receipts
+defaultRedirect: stagesolutions/bargeld/receipts
+create:
+    redirect: 'stagesolutions/bargeld/receipts/update/:id'
+    redirectClose: stagesolutions/bargeld/receipts
+update:
+    redirect: stagesolutions/bargeld/receipts
+    redirectClose: stagesolutions/bargeld/receipts

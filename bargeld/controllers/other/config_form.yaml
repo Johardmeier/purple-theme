@@ -1,0 +1,10 @@
+name: Other
+form: $/stagesolutions/bargeld/models/other/fields.yaml
+modelClass: Stagesolutions\Bargeld\Models\Other
+defaultRedirect: stagesolutions/bargeld/other
+create:
+    redirect: 'stagesolutions/bargeld/other/update/:id'
+    redirectClose: stagesolutions/bargeld/other
+update:
+    redirect: stagesolutions/bargeld/other
+    redirectClose: stagesolutions/bargeld/other

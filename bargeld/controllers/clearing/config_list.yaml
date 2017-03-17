@@ -1,0 +1,11 @@
+list: $/stagesolutions/bargeld/models/clearing/columns.yaml
+modelClass: Stagesolutions\Bargeld\Models\Clearing
+title: Clearing
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'stagesolutions/bargeld/clearing/update/:id'

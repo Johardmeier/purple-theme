@@ -1,0 +1,28 @@
+fields:
+    id:
+        label: 'id'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    receipt_date:
+        label: 'Datum'
+        mode: date
+        span: auto
+        type: datepicker
+        comment: 'Datum der Abrechnung'
+    accounted_takings:
+        label: 'Tagesseinnahmen'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    unaccounted_takings:
+        label: 'Weitere Einnahmen'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    remarks:
+        label: 'Bemerkung'
+        size: large
+        oc.commentPosition: ''
+        span: full
+        type: textarea

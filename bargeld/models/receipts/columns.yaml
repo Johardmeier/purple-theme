@@ -1,0 +1,26 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    receipt_date:
+        label: Datum
+        type: date
+        sortable: true
+    amount_bistro:
+        label: Bistro
+        type: number
+        sortable: true
+    amount_theatre:
+        label: Theater
+        type: number
+        sortable: true
+    amount_other:
+        label: Weitere
+        type: number
+        sortable: true
+    amount_full:
+        label: Total
+        type: number
+        sortable: true

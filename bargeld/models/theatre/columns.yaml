@@ -1,0 +1,23 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+        sortable: true
+    show_date:
+        label: Datum
+        type: date
+        sortable: true
+    show_name:
+        label: Stück
+        type: text
+        searchable: true
+        sortable: true
+    takings:
+        label: Einnahmen
+        type: number
+        sortable: true
+    tickets_total:
+        label: Eintritte
+        type: number
+        sortable: true

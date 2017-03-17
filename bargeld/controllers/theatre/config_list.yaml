@@ -1,0 +1,11 @@
+list: $/stagesolutions/bargeld/models/theatre/columns.yaml
+modelClass: Stagesolutions\Bargeld\Models\Theatre
+title: Theater
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'stagesolutions/bargeld/theatre/update/:id'

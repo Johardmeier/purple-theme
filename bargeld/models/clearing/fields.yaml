@@ -1,0 +1,58 @@
+fields:
+    id:
+        label: 'Text'
+        span: auto
+        oc.commentPosition: ''
+        type: text
+    clearing_date:
+        label: 'Datum'
+        mode: date
+        span: auto
+        type: datepicker
+        comment: 'Datum der Abrechnung'
+    deposit:
+        label: 'Einzahlung'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    reserve_new:
+        label: 'Reserve (neu)'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    sum_bistro:
+        label: 'Total Einnahmen Bistro'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    sum_theatre:
+        label: 'Total Einnahmen Theater'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    sum_other:
+        label: 'Total Einnahmen Weitere'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    sum_receips:
+        label: 'Total Quittungen'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    corr_amount:
+        label: 'Korrektur (Sfr.)'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    corr_text:
+        label: 'Korrektur Text'
+        oc.commentPosition: ''
+        span: right
+        type: text
+    remarks:
+        label: 'Bemerkung'
+        size: large
+        oc.commentPosition: ''
+        span: full
+        type: textarea

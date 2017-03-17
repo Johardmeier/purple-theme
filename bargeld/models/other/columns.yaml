@@ -1,0 +1,26 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+        sortable: true
+    receipt_date:
+        label: Datum
+        type: date
+        searchable: false
+        sortable: true
+    takings_bistro:
+        label: Einnahmen Bistro
+        type: number
+        searchable: false
+        sortable: true
+    takings_theatre:
+        label: Einnahmen Theater
+        type: number
+        searchable: false
+        sortable: true
+    takings_other:
+        label: Weitere Einnahmen
+        type: number
+        searchable: false
+        sortable: true

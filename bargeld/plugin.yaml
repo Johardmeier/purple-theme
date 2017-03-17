@@ -1,0 +1,32 @@
+plugin:
+    name: 'stagesolutions.bargeld::lang.plugin.name'
+    description: 'stagesolutions.bargeld::lang.plugin.description'
+    author: StageSolutions
+    icon: oc-icon-money
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Bargeld
+        url: /stagesolutions/bargeld/bistro
+        icon: icon-money
+        sideMenu:
+            side-menu-item:
+                label: Bistro
+                icon: icon-sitemap
+                url: /stagesolutions/bargeld/bistro
+            side-menu-item2:
+                label: Theater
+                icon: icon-sitemap
+                url: /stagesolutions/bargeld/theatre
+            side-menu-item3:
+                label: Weitere
+                icon: icon-sitemap
+                url: /stagesolutions/bargeld/other
+            side-menu-item4:
+                label: Quittungen
+                icon: icon-sitemap
+                url: /stagesolutions/bargeld/receipts
+            side-menu-item5:
+                label: Abrechnungen
+                icon: icon-sitemap
+                url: /stagesolutions/bargeld/clearing

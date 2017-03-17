@@ -1,0 +1,10 @@
+name: Clearing
+form: $/stagesolutions/bargeld/models/clearing/fields.yaml
+modelClass: Stagesolutions\Bargeld\Models\Clearing
+defaultRedirect: stagesolutions/bargeld/clearing
+create:
+    redirect: 'stagesolutions/bargeld/clearing/update/:id'
+    redirectClose: stagesolutions/bargeld/clearing
+update:
+    redirect: stagesolutions/bargeld/clearing
+    redirectClose: stagesolutions/bargeld/clearing

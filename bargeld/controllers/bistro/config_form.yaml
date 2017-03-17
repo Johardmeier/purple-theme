@@ -1,0 +1,11 @@
+name: Bistro
+modelClass: Stagesolutions\Bargeld\Models\Bistro
+form: $/stagesolutions/bargeld/models/bistro/fields.yaml
+defaultRedirect: stagesolutions/bargeld/bistro
+create:
+    redirect: 'stagesolutions/bargeld/bistro/update/:id'
+    redirectClose: stagesolutions/bargeld/bistro
+update:
+    redirect: stagesolutions/bargeld/bistro
+    redirectClose: stagesolutions/bargeld/bistro
+preview: {  }

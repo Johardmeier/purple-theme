@@ -1,0 +1,10 @@
+name: theatre
+form: $/stagesolutions/bargeld/models/theatre/fields.yaml
+modelClass: Stagesolutions\Bargeld\Models\Theatre
+defaultRedirect: stagesolutions/bargeld/theatre
+create:
+    redirect: 'stagesolutions/bargeld/theatre/update/:id'
+    redirectClose: stagesolutions/bargeld/theatre
+update:
+    redirect: stagesolutions/bargeld/theatre
+    redirectClose: stagesolutions/bargeld/theatre

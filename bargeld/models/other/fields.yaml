@@ -1,0 +1,63 @@
+fields:
+    id:
+        label: 'Text'
+        span: auto
+        oc.commentPosition: ''
+        type: text
+    receipt_date:
+        label: 'Datum'
+        mode: date
+        span: auto
+        type: datepicker
+        comment: 'Datum der Abrechnung'
+    takings_bistro:
+        label: 'Einnahmen Bistro'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    spendings_bistro:
+        label: 'Ausgabe Bistro'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    takings_theatre:
+        label: 'Einnahmen Theater'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    spendings_theatre:
+        label: 'Ausgaben Theater'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    takings_other:
+        label: 'Einnahmen Weitere'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    spendings_other:
+        label: 'Ausgaben Weitere'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    text_bistro:
+        label: 'Text Bistro'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    text_theatre:
+        label: 'Text Theater'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    text_other:
+        label: 'Text Weitere'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    remarks:
+        label: 'Bemerkung'
+        size: large
+        oc.commentPosition: ''
+        span: full
+        type: textarea

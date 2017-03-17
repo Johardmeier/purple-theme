@@ -1,0 +1,20 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table stagesolutions_bargeld_bistro'
+    - builder_table_create_stagesolutions_bargeld_bistro.php
+1.0.3:
+    - 'Updated table stagesolutions_bargeld_bistro'
+    - builder_table_update_stagesolutions_bargeld_bistro.php
+1.0.4:
+    - 'Created table stagesolutions_bargeld_receipts'
+    - builder_table_create_stagesolutions_bargeld_receipts.php
+1.0.5:
+    - 'Created table stagesolutions_bargeld_theatre'
+    - builder_table_create_stagesolutions_bargeld_theatre.php
+1.0.6:
+    - 'Created table stagesolutions_bargeld_other'
+    - builder_table_create_stagesolutions_bargeld_other.php
+1.0.7:
+    - 'Created table stagesolutions_bargeld_clearing'
+    - builder_table_create_stagesolutions_bargeld_clearing.php

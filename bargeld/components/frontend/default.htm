@@ -1,0 +1,13 @@
+<p>Frontend Defaults to
+<br>
+    {{ theItems }}
+    {{__SELF__.property('maxItems')}}
+    Or
+    {{__SELF__.myMaxItem(7)}}
+    and
+    ---> {{tester}}
+
+    {% for info in __SELF__.infos() %}
+    {{ info }}
+    {% endfor %}
+</p>

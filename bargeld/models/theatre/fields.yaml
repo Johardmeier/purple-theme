@@ -1,0 +1,74 @@
+fields:
+    id:
+        label: 'id'
+        span: auto
+        oc.commentPosition: ''
+        type: text
+    show_date:
+        label: 'Datum'
+        mode: date
+        span: auto
+        type: datepicker
+        comment: 'Datum der Abrechnung'
+    show_name:
+        label: 'Stück'
+        size: large
+        oc.commentPosition: ''
+        span: full
+        type: text
+    show_nr_of_day:
+        label: 'Aufführungen heute'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    takings:
+        label: 'Einnahmen'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    remarks:
+        label: 'Bemerkung'
+        size: large
+        oc.commentPosition: ''
+        span: full
+        type: textarea
+    tickets_normal_adult:
+        label: 'Erwachsene'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    tickets_normal_child:
+        label: 'Kinder'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    tickets_reduced_adult:
+        label: 'Erwachsene'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    tickets_reduced_child:
+        label: 'Kinder'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    entries_school_adult:
+        label: 'Erwachsene'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    entries_school_child:
+        label: 'Kinder'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    entries_groups:
+        label: 'davon Gruppen'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    entries_discount_card:
+        label: 'davon Abo'
+        oc.commentPosition: ''
+        span: right
+        type: number
