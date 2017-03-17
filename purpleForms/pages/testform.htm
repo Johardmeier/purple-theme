@@ -1,0 +1,31 @@
+title = "testform"
+url = "/testform"
+layout = "base"
+description = "hallo"
+is_hidden = 0
+
+[bargeldFrontend]
+theItems = "fuBar"
+maxItems = "WER"
+gugux = "SO"
+==
+
+
+{% component "bargeldFrontend" %}
+
+{{ maxItems }}
+
+{% for info in bargeldFrontend.infos %}
+    {{ info }}
+{% endfor %}
+
+<br>
+<br>
+= huhu: {% for gugu in maxItems %} {{ gugu }} {% endfor %}
+<br>
+= huhu: {{ bargeldFrontend.maxItems }}
+<br>
+<br>
+
+{% partial 'bargeldFrontend::table'  %}
+{% partial 'bargeldFrontend::pText' myTopics="hallo" %}

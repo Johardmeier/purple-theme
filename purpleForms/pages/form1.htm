@@ -1,0 +1,19 @@
+title = "form1"
+url = "/form1"
+layout = "base"
+description = "Tests for a frontend form"
+is_hidden = 0
+==
+<?php
+function onHandleForm()
+{
+    $this['lastValue'] = post('value');
+}
+?>
+==
+{{ form_open({ model: 'StageSolutions\Theater\Models\Person' ,class: 'ui form'}) }}
+{{ form_label("Username", "username") }}
+{{ form_text("name") }}
+{{ form_label("Password", "password") }}
+{{ form_close() }}
+

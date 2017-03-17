@@ -1,0 +1,11 @@
+name: "dbTest"
+description: "Versuch einer Datenbankanwendung mit October "
+author: "Johannes Hardmeier"
+homepage: "http://stage-solutions.com"
+
+form:
+    fields:
+        site_name:
+            label: Site name
+            comment: Webseitenname wie er auf der Frontseite erscheinen soll
+            default: PurpleForm Database Application

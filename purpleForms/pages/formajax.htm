@@ -1,0 +1,20 @@
+title = "formAjax"
+url = "/formajax"
+layout = "base"
+is_hidden = 0
+
+==
+
+public function onUpdate($id = null)
+{
+// Check storage/logs/system.log
+trace_log('onUpdate was called with ID: '. $id);
+
+\Flash::success('Jobs done!');
+}
+
+==
+
+<p>You gave an ID of: <?= $myId ?></p>
+
+<button data-request="onUpdate">Write to log</button>
